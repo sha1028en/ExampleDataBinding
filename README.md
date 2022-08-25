@@ -10,7 +10,7 @@ MVVM을 배우기 전에 먼저 보는 데이터 바인딩.<br>
 android {
     compileSdk nn
 
-    viewBinding { enabled = true }
+    dataBinding { enabled = true }
     . . . 
  ```
 을 적어주고 sync now를 해주자.
@@ -53,6 +53,7 @@ android {
         this.bind.state = 값
 ```
 바인딩 객체의 state 객체를 변경하면 화면의 값도 알아서 바뀐다.
+( 레이아웃을 작업 안해주면 바인딩 객체가 안붙는다! )
 
 ## 결과
 ![Android Emulator - ExampleDataBinding 2022-08-24 14-22-28_1](https://user-images.githubusercontent.com/100817401/186336585-f0bd5372-8f75-43a2-955b-9a78e12354f8.gif)
