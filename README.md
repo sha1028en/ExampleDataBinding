@@ -10,7 +10,7 @@ MVVM을 배우기 전에 먼저 보는 데이터 바인딩.<br>
 android {
     compileSdk nn
 
-    dataBinding { enabled = true }
+    viewBinding { enabled = true }
     . . . 
  ```
 을 적어주고 sync now를 해주자.
