@@ -52,7 +52,7 @@ android {
         this.bind = DataBindingUtil.setContentView( this, R.layout.activity_main)
         this.bind.state = 값
 ```
-바인딩 객체의 state 객체를 변경하면 화면의 값도 알아서 바뀐다.
+바인딩 객체의 state 객체를 변경하면 화면의 값도 알아서 바뀐다.<br>
 ( 레이아웃을 작업 안해주면 바인딩 객체가 안붙는다! )
 
 ## 결과
